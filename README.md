@@ -1,2 +1,2 @@
-# Functions_library
-Methods I frequently use in projects
+# functions
+Library of common functions
