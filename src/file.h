@@ -7,8 +7,7 @@
 
 #include <fstream>
 
-class file {
-    static std::ifstream& gotoLine(std::ifstream &file, unsigned int skip);
-};
+static std::ifstream& gotoLine(std::ifstream &file, unsigned int skip);
+
 
 #endif //FUNCTIONS_FILE_H

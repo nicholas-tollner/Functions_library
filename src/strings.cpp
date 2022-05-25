@@ -9,7 +9,7 @@
  * @param delimiter The char to split around
  * @param vec The vector<std::string> to fill with split strings
  */
-void strings::stringSplit(std::string line, char delimiter, std::vector<std::string> &vec) {
+void stringSplit(std::string line, char delimiter, std::vector<std::string> &vec) {
     std::stringstream stream(line);
     std::string token;
 

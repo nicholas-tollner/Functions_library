@@ -11,7 +11,7 @@
  * @param skip The number of lines to skip
  * @return The original file
  */
-std::ifstream& file::gotoLine(std::ifstream &file, unsigned int skip) {
+std::ifstream& gotoLine(std::ifstream &file, unsigned int skip) {
     if (!file)
     {
         std::cout << "File could not be opened" << std::endl;
