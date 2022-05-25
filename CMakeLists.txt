@@ -7,4 +7,4 @@ project(functions)
 set(SOURCE_FILES src/strings.cpp src/file.cpp src/strings.cpp)
 
 # Build
-add_library(functions ${SOURCE_FILES})
+add_library(${CMAKE_PROJECT_NAME} ${SOURCE_FILES})
