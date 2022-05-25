@@ -3,7 +3,6 @@
 //
 
 #include "file.h"
-#include <iostream>
 
 /**
  * Skips a number of lines in a given file
@@ -14,7 +13,7 @@
 std::ifstream& gotoLine(std::ifstream &file, unsigned int skip) {
     if (!file)
     {
-        std::cout << "File could not be opened" << std::endl;
+        printf("File could not be opened");
         exit(1);
     }
     file.seekg(std::ios_base::beg);                     // Set next character to be extracted to beginning of file

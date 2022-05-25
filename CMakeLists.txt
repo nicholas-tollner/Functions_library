@@ -4,7 +4,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 # Project
 project(functions)
-set(SOURCE_FILES src/strings.cpp src/file.cpp)
+set(SOURCE_FILES src/strings.cpp src/file.cpp src/strings.cpp)
 
 # Build
 add_library(functions ${SOURCE_FILES})
