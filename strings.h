@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 
-static void stringSplit(std::string line, char delimiter, std::vector<std::string> &vec);
+void stringSplit(std::string line, char delimiter, std::vector<std::string> &vec);
+void helloWorld();
 
 #endif //FUNCTIONS_STRING_H
+
